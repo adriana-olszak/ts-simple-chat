@@ -1,0 +1,48 @@
+.user-prompt__form {
+    background: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    padding: 30px 20px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.user-prompt__label {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-prompt__btn {
+    margin-top: 12px;
+    padding: 8px;
+    border-radius: 3px;
+    background: #514EFF;
+    border: 3px solid #514EFF;
+    color: #f5f7fa;
+    font-weight: bold;
+}
+
+.user-prompt__btn:focus-visible {
+    background: #302ea5;
+}
+
+.user-prompt__logo-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.user-prompt__logo {
+    width: 82px;
+}
+
+.user-prompt__error {
+    border-radius: 4px;
+    background-color: #fe5858;
+    padding: 4px 8px;
+    color: white;
+    margin-bottom: 10px;
+}

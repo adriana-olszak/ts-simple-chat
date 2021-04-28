@@ -1,0 +1,28 @@
+.chat_control {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.chat_control input {
+    flex-grow: 4;
+    height: 42px;
+    margin: 0;
+}
+
+.chat_control__btn {
+ height: 42px;
+    margin: 0;
+}
+
+@media all and (max-width: 547px) {
+    .chat_control {
+        flex-direction: column;
+    }
+
+    .chat_control__btn {
+        margin-top: 12px;
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,14 @@
+.noMessages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.noMessages figcaption {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.noMessages_icon {
+  width: 120px;
+}
